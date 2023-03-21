@@ -1,0 +1,38 @@
+#90DayofvDevops Challange
+Day 1
+Task 1 : Fork the repo, so here is my repo https://github.com/FarmanNaqvi/90DaysOfDevOps
+Task 2 : Watch the Devops Roadmap video: Done
+Task 3 (a) : What is Devops ?
+Answer :  DevOps is a culture or methodology in which 2 departments (Operations and Development) works
+together. Therefore the name of this methodology is a combination of Dev & Ops. Let's Suppose a 
+developer write code, to make sure if the code is Scalable, Well Tested and deployed on the cloud,this
+is the responsibility of a Devops Engineer. To Ensure above mention things, a Devops Engineer requires
+some tools like AWS, Git, Puppet, Docker, Kubernetes etc. These tools are the combination of practices
+to work faster than a tradional software devlopment, testing and delpoyment processs.
+
+What is Automation ? 
+DevOps automation is the tool to avoid repeatations of a similar work and to reduce human efforts.
+Its also save your time and you can also apply the same task to thausands of servers in one click.
+Also the automation tools for CI/CD which is Jenkins gives an edge to the teams to accelerate the
+the software development process.
+
+What is Scaling
+Scaling in DevOps is use to increase or decrease the cloud computing resources as per your needs which
+will save your money and prevent to waste your cloud computing resources. There are some tools, load
+balancers available for Devops like Kubernetes, Docker Swarm etc. DevOps need to design their application
+which has to be Scalable.
+
+What is Infrastrcture
+DevOps is an important part of infrastructure management. It covers a variety of techniques for 
+managing the infrastructure through coding. Infrastructure itself is the IT environment which supports
+applications or services, and can consist of servers, databases, networks, or other components.
+To meet the needs of their applications, DevOps teams strive to manage their infrastructure 
+automatically and scalably; employing Infrastructure as Code (IaC) is one popular way to do 
+this as it allows teams to automate the management process.
+
+Why DevOps is important ?
+DevOps is a key component of the software development and operations process as it allows for quicker
+product launches and smoother maintenance of existing deployments. The primary objective of DevOps
+is to create an efficient infrastructure for certain applications and ensure great scalability.
+In essence, scalable applications are dependable, automated, and essential in today's software 
+development cycle.
