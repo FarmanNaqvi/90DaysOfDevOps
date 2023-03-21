@@ -1,0 +1,19 @@
+#90DaysOfDevOps (Day 2)
+Task # 1 : Check your present working directory.
+To check you present working directory in linux inside your terminal is "pwd". For Example, if you
+are in your Downloads folder and you type 'pwd' in terminal it will gives you the whole path to 
+access downloads folder. As you can see below, to access Downloads folder first you need to access
+Home Directory > User account (in this case it's farman) > Downloads.
+
+Task # 2 : List all the files or directories including hidden files.
+Likewise in MS DOS if you want to see your files within the specific directory you can type DIR,
+Similarly, if you want to see or check the list of files and folder you can type 'ls', However 'ls'
+will only going to show you those files and folders which are visible and not hidden. TO view all files
+and folders (including hidden items) you can use command 'ls -a'
+
+Task # 3 : Create a nested directory A/B/C/D/E
+In linux the folders are called directories, if you want to make a directory you can type mkdir which
+will create a directory (folder) for you on the same location. If you want to create a hierarchy of 
+directories like Downloads > Movies > Indian Movies, you can make these directories only with one 
+command in linux which is 'mkdir -p Downloads/Movies/Indian Movies'.
+
