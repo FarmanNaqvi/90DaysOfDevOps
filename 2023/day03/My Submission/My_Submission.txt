@@ -1,0 +1,71 @@
+90 Days of DevOps
+
+Day 3 Task: Basic Linux Commands
+
+Task: What is the linux command to
+
+Q1: 1. To view what's written in a file.
+'cat' is a command through which you can review waht's written in a file.
+
+Q2: To change the access permissions of files.
+'chmod 777' the commad to change the file's permissions is chmod (you must be an admin to run this command or you can use sudo before chmod) 
+and then the numbers shows the access levels for file's owner, groups and publice. 
+
+There are 3 permission's level for each group.
+1. Read    (r) - 4
+2. Write   (w) - 2
+3. Execute (x) - 1
+
+So, as mention above 'chmod 777' which means you are giving full permissions to all the types of owners,
+you have to do some maths in order to understand the permissions mechanism, let's suppose there is a 
+file on which you want to give full acess (rwx) to the owner of a file, read and write (rw-) permissions 
+to the groups and for others or public only read (r--)permissions. You can use the following command.
+
+                 sudo chmod 764 <filename>
+
+
+Q3. To check which commands you have run till now.
+'History' is the command through which you can check which commands you have run till now.
+
+Q4: To remove a directory/ Folder.
+                rmdir <directory name>
+Q5: To create a fruits.txt file and to view the content.
+There are more than 1 commands to create a text file in Linux you can use 'touch <filename.txt> command
+or you can use vim <filname.txt> or nano <filname.txt>. if you use touch command the file will be
+created,however if you use vim or nano command the text file will create and a text editor will open 
+for you to edit that file as well. Vim and nano are the text editors in Linux, Like we have notepad in 
+Windows.
+                    touch fruits.txt
+                    nano fruits.txt
+                    vim fruits.txt
+
+To view the content of a file you can use cat commands
+
+                    cat fruits.txt
+
+Q6: Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava
+To add content in devops file you can use any text editor (vim or nano) and then add one by one.
+
+                    vim devops.txt 
+
+Q7: To Show only top three fruits from the file.
+you can use following command to view first 3 fruits in the file 
+
+                    cat fruits.txt | head -3
+
+Q8: To Show only bottom three fruits from the file.
+you can use following command to view bottom 3 fruits in the file 
+
+                    cat fruits.txt | tail -3
+
+Q9: To create another file Colors.txt and to view the content. To create another file Colors.txt and to view the content.. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+Same as Q6
+
+To find the difference between fruits.txt and Colors.txt file.
+You can use following command to check the different between fruits.txt and colors.txt files.
+
+                    diff fruits.txt colors.txt
+
+
+
+    
