@@ -1,0 +1,41 @@
+Task 1 : Explain in your own words and examples, what is Shell Scripting for DevOps.
+
+Shell scripting is a file with set of command to automate any task which you wants to run frequently,
+For Example, you are a Manager in a company and you have to run a Production report on daily basis
+at the end, with the help of scripting you can automate this task instead of extracting a file
+manually.
+
+Task # 2 : Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+
+Here is the script: 
+
+#!bin/bash
+echo "I will complete #90DaysOofDevOps challenge"
+
+Task # 3 : Write a Shell Script to take user input, input from arguments and print the variables.
+
+take a user input : You can use read command to take a input from a user.
+
+input from arguments: you can place an argument while you are running a script, 
+e.g ./script.sh first-argument and then in a file you can type $1 to print your first argument.
+
+Print the Variable: To print a variables in shell script you can type ${variable name}.
+
+Task 4: Write an Example of If else in Shell Scripting by comparing 2 numbers
+Below mention is the script in which we will take a number from user and check if the number is 
+positive or negative.
+
+#!/usr/bin/bash
+
+echo " ***** Script to Check if the number is possitive or negative "
+
+read -p "Enter a number: " num
+ 
+
+if [ $num -ge 0 ]
+then
+ echo "It is a positive number "
+else 
+ echo "it is a negative number"
+fi
+
