@@ -22,7 +22,7 @@
 
  Was it difficult?
  
- - Post about it on LinkedIn and Let me know :)
+ - Post about it on LinkedIn and Let me know
 
  Article Reference: [Click here to read basic Linux Shell Scripting](https://devopscube.com/linux-shell-scripting-for-devops/)
 
