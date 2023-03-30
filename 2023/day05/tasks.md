@@ -39,7 +39,7 @@ You may need to use loops or commands (or both), based on your preference . [Che
  
  Cron is the system's main scheduler for running jobs or tasks unattended. A command called crontab allows the user to submit, edit or delete entries to cron. A crontab file is a user file that holds the scheduling information.
 
- Watch This video as a Reference to Task 2 and 3 [https://youtu.be/aolKiws4Joc](https://youtu.be/aolKiws4Joc)
+ Watch This video as a Reference to Task 2 and 3 [https://youtu.be/aolKiws4Joc](http    s://youtu.be/aolKiws4Joc)
 
 
  4) Read about User Management and Let me know on Linkedin if you're ready for Day 6. 

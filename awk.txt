@@ -1,0 +1,2 @@
+awk 'NR>=20 && NR<=50 && /INFO/ {print $1,$2,$4} ' log_file.txt
+
